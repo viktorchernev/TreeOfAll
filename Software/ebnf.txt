@@ -1,0 +1,22 @@
+! DESCRIBE grammer:
+
+
+
+production ::= <object> "->" [<object> ["," <object>]*]? ";"
+<object> ::= <literal> " " <tag>
+<tag> ::= "<" <id> ">" | "<" <id> "/" <id> ">"
+<id> ::= [A-Z,a-z,0-9]{8}
+<literal> ::= .* [<escape-sequence> .*]*
+<escape-sequence> ::= "\;" | "\," | "\<" | "\>" | "\->"
+<comment> ::= "!" .* \n | "!" .* \r\n
+
+
+
+! http://www.goldparser.org/getting-started/6-how-gold-works.htm
+! https://github.com/antlr/antlr4/blob/master/doc/getting-started.md
+! [] - set
+! {} - named - like <name> like {name}
+! * - 0 or more
+! + - one or more
+! ? - 0 or 1
+! ::= - as defined ad, same as ->

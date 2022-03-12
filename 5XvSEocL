@@ -1,0 +1,56 @@
+PRIVATE SCHEMES <eEV5Cjcu>->
+	real estate asset <H0i0z4C2>,
+	address <z0j4tpXK>;
+
+real estate asset <H0i0z4C2>->
+	collective parts of building <umkiyrbc>,
+	owned part of building <z9Mf13HO>;
+	
+owned part of building <z9Mf13HO> ->
+	outer parts <ktpfWglK>,
+	inner parts <SgUxebno>;
+
+inner parts <SgUxebno>->
+	Furniture & facility items (fridge\, washing machine\, etc) <eOuW3Xkn>,
+	Ideological groups - cosmetics\, usable space\, etc <PafAaRyO>,
+	Drapery - sheets\, matrecess\, mats\, cushins <LanYt6mx>,
+	Items - utencils\, skissors <SmWRZ6ht>;
+
+
+
+
+
+address <z0j4tpXK>-> country <k1YW0tCK>;
+country <k1YW0tCK>-> province <ziro1Orr>;
+province <ziro1Orr>-> municipality <e8YIFlnw>;
+
+municipality <e8YIFlnw>->
+	city <fqoBhjD0>,
+	town <UOluNJWV>,
+	vilage <dhSkhweG>,
+	area <3at5jR3l>,
+	road <IsFa1bD3>;
+
+city <fqoBhjD0>->
+	district <cd4ucBr8>,
+	vilage <dhSkhweG>;
+
+town <UOluNJWV>->
+	district <cd4ucBr8>,
+	vilage <dhSkhweG>;
+
+district <cd4ucBr8>->
+	street <m2T8G4fQ>,
+	building <1UxvgKus>,
+	site <Hrms2fuq>;
+	
+vilage <dhSkhweG>->
+	street <m2T8G4fQ>,
+	building <1UxvgKus>,
+	site <Hrms2fuq>;
+
+street <m2T8G4fQ>-> building <1UxvgKus>;
+building <1UxvgKus>-> entrance <uo2NI4tf>;
+entrance <uo2NI4tf>-> floor <rMeWWGjz>;
+floor <rMeWWGjz>-> place <f1cole5J>;
+site <Hrms2fuq>-> place <R05vuC0b>;

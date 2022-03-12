@@ -1,0 +1,62 @@
+clothing <8GlmqTVI>->
+
+	male clothing <JiZc7cYu>,
+	female clothing <8wMbAerE>;
+
+
+
+	female clothing  <8wMbAerE>->
+		female underwear <R9Y7f3gM>,
+		female middlewear <WZys9M18>,
+		female outerwear <GSPsAyp4>;
+
+	male clothing  <JiZc7cYu>->
+		male underwear <GxlXQxXw>,
+		male middlewear <kB4JekM2>,
+		male outerwear <wiehdpd8>;
+
+
+
+	male underwear  <GxlXQxXw>->
+		underwear <Un6t9nhb/Ffa8450k>,
+		socks <FWBJMatX/lJH3jdiw>,
+		shirts <PHZ0VYJU/ffWheaye>;
+
+	male middlewear <kB4JekM2>->
+		blouses <242bmWjs/fYKu1O11>,
+		leggings <fiWcgTXe/wKPxsJAt>,
+		wool socks <xAJTOi4w/NPKF4Ga1>;
+
+	male outerwear  <wiehdpd8>->
+		upper body <6dAm0h4q/x0cQjtD2>,
+		jackets <Bdmnjftf/soXE2qS3>,
+		pants <XibIFsEX/6CxXapzc>,
+		shoes <Mr6B0JFp/WCC8BZEN>,
+
+		hats <bBwjovvI/8myGEi8H>,
+		gloves <1aXp6V73/xeeOfS5P>,
+		scarfs <RyWGRqCk/QZvvTcxs>,
+		backpacks <HDb6lG8q/IxAmmqdD>;
+
+
+
+	female underwear <R9Y7f3gM>->
+		underwear <3hoL7QSo>,
+		socks <Hi3BFE7n>,
+		shirts <m56wvZsI>;
+
+	female middlewear <WZys9M18>->
+		blouses <j9Fc7JFL>,
+		leggings <OJdrSK3k>,
+		wool socks <eBrT08Fn>;
+
+	female outerwear <GSPsAyp4>->
+		upper body <4Uw6IqmV>,
+		jackets <lByDcxBb>,
+		pants <vvsdwfE7>,
+		shoes <GnGCId1b>,
+
+		hats <jI70Aajd>,
+		gloves <9BGurLna>,
+		scarfs <ub0S6oYC>,
+		backpacks <yVLV5Uv2>;
