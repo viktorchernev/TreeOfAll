@@ -1,8 +1,0 @@
-The "Address" graph proposes a scheme for describing the address of a place anywhere on the planet. 
-Any node or number of nodes might be skipped while describing the address of a place, as long as the address makes sense.
-
-There are currently 195 countries, in which there are between 3600 and 5200 provinces and administrative divisions, depending on the source, as different sources would have different ideas about what constitutes a province. There are 4000 to 10000 cities worldwide, again, there being multiple different definitions of what constitutes a city. Not all of those are municipal cities, and some towns are municipal centers - if municipalities even matter in the given context.
-
-Knowing the population density and demographics of countries like the US and India, it can be estimated that there are around 380 000 towns and more then 2 500 000 villages worldwide, but that is very rough approximation.
-
-REVIEW: An address should also have the option to have a topic - for example "archeological sites", "industrially-significant places", "party culture", "serial-killer history" etc.
