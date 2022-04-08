@@ -1,0 +1,20 @@
+project name -> "mental disorders";
+paths -> "0_root \> obstacles \> human diseases \> mental disorders";
+completeness estimate -> full; //this is an estimation of how complete the lists are, not how well the toppic is covered
+contributors -> DemonOfReason;
+
+nodes -> 
+
+	<AIaFNlzX/wPynTZw9>;
+
+
+sources ->
+
+	(C) (wikipedia list of mental disorders) [https://en.wikipedia.org/wiki/List_of_mental_disorders],
+	(A) Diagnostic and Statistical Manual of Mental Disorders vol. 5 (American Psychiatric Association DSM-5),
+	(A) International Classification of Diseases (World Health Organisation - WHO);
+
+
+/* 
+	Sources are cannonical, descriptive and encompassing.
+*/

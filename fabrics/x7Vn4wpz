@@ -1,0 +1,65 @@
+fabrics <G4z5cfVq>->
+
+	wool fabrics <4HNB1v1Q>,
+	cotton fabrics <AZH5nzCr>,
+	silk fabrics <9Y68BXcz>,
+	synthetic fabrics <axY8sk2r>;
+
+
+	wool fabrics <4HNB1v1Q>->
+		Cashmere (Кашмир) <SyqL0w3q>,
+		Wool challis <3wMTrC5B>,
+		Worsted <7nJEOmyx>,
+		Wool Blend Suiting <LQRO01Sg>,
+		Wool Flannel (Фланел) <J2OE1Bjp>,
+		Wool Twill (Кепър) <MM1m0MqD>,
+		Boiled wool (Варена вълна) <WereJsfB>,
+		Wool Boucle (Букле) <Hp5omMMe>,
+		Melton (Мелтон) <eNwp3HHm>,
+		Tweed (Туид) <NBdHoGWS>,
+		Felt (Филц) <yj5y83iG>,
+		Tartan [https://en.wikipedia.org/wiki/Tartan] <61i9QtKU>;											//Scottish kilts
+
+	cotton fabrics <AZH5nzCr>->
+		Voile (Воал \, Муселин) [https://en.wikipedia.org/wiki/Voile] <dAOACpBY>,							//sheer, fine, transparent - mosquito nets, curtains (not net curtains)
+		Cheesecloth (Тензух) [https://en.wikipedia.org/wiki/Cheesecloth] <gSy6IpOE>,						//very loose cotton fabric
+		Swiss dot [https://en.wikipedia.org/wiki/Dotted_Swiss_(fabric)] <DMDPOY43>,							//sheer cotton fabric embellished with small dots
+		Broderie anglaise (Английска бродерия) [https://en.wikipedia.org/wiki/Broderie_anglaise] <Vr3QQxnJ>,//an embroidery
+		Dobby (Доби) [https://en.wikipedia.org/wiki/Dobby_(cloth)] <xArq9ZdG>,								//has geometric patterns
+		Seersucker [https://en.wikipedia.org/wiki/Seersucker] <nLgMh6fX>,									//has 2 alternating texture stripes. Cotton, silk or linen
+		Cotton Lawn <Oq2ReA41>,
+		Chambray aka Batiste (Шамбре) [https://en.wikipedia.org/wiki/Cambric] <8rZnsKSN>,					//denim looking but much finer. plain, dense
+		Denim (Деним) [https://en.wikipedia.org/wiki/Denim] <3qCHKFCT>,										//sturdy cotton textile
+		Poplin (Поплин) <upOvH2pb>,																			//wool, cotton, silk, rayon, polyester or a mixture of these
+		Garbardine (Габардин) <hPSLBCUk>,
+		Cotton Velvet (Кадифе) <g6jsKXN2>,																	//velvet
+		Corduroy (Рипсено Кадифе) [https://en.wikipedia.org/wiki/Corduroy] <UuCO7esm>,						//striped velvet
+		Brushed cotton (Четкан памук) <pEiyLtSb>,
+		Flannel (Фланел) <HPuzMuBL>,
+		Ranforce (Ранфорс) <GKeOXRgV>,
+		Terrycloth (Хавлия) [https://en.wikipedia.org/wiki/Terrycloth] <dImwLjTL>,
+		Canvas (Канвас) <ni1QDs5m>;
+
+	silk fabrics <9Y68BXcz>->
+		Silk Chiffon (Копринен Шифон) <T5fv49T3>,
+		Silk Organza (Копринена Органза) <ZZjRxqXv>,
+		Silk Crepe (Копринен Креп) <bz1B9zlU>,
+		Duchess Satin <349vjJoC>,
+		Dupion (Дюпион) <sjJH9ucT>,
+		Silk Georgette (Копринен Жоржет) <1ueEmgHa>;
+	
+	synthetic fabrics <axY8sk2r>->
+		Polyester Chiffon (Полиестерен Шифон) <QU1VBCYf>,
+		Nylon Organza (Органза) <LLDajEEg>,
+		Polyester Georgette (Полиестерен Жоржет) <Mt9qOfQ6>,
+		Rayon Challis <AElvD6PZ>,
+		Polyester Crepe (Полиестерен Креп) <qMhTOzqZ>,
+		Crepe du chine (Креп де шин) <MwkuExFX>,
+		Satin Backed Crepe <9aL7GU4a>,
+		Double Crepe <Pxl1UZJE>,
+		Triple Crepe <UlEBuLiv>,
+		Polyester Sateen (Полиестерен сатен) <xZ6WcaVU>,
+		Gaberchino <0eMf7K92>,
+		Polyester Brocade <brMGjyxB>,
+		Taffeta (Тафта) <5Rsecjor>,
+		Stretch velvet <BXc7VQyi>;
