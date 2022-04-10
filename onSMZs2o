@@ -1,4 +1,4 @@
-clothing <8GlmqTVI>->
+clothing and apparel <8GlmqTVI>->
 
 	male clothing <JiZc7cYu>,
 	female clothing <8wMbAerE>;
@@ -24,7 +24,7 @@ clothing <8GlmqTVI>->
 
 	male middlewear <kB4JekM2>->
 		blouses <242bmWjs/fYKu1O11>,
-		leggings <fiWcgTXe/wKPxsJAt>,
+		leggings\/tights for men <fiWcgTXe/wKPxsJAt>,
 		wool socks <xAJTOi4w/NPKF4Ga1>;
 
 	male outerwear  <wiehdpd8>->
@@ -47,7 +47,7 @@ clothing <8GlmqTVI>->
 
 	female middlewear <WZys9M18>->
 		blouses <j9Fc7JFL>,
-		leggings <OJdrSK3k>,
+		leggings\/tights for women <OJdrSK3k>,
 		wool socks <eBrT08Fn>;
 
 	female outerwear <GSPsAyp4>->

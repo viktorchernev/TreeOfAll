@@ -1,3 +1,6 @@
+// The second part in the literal "Dyslexia (reading disorder)" is added to fix a bug 
+// in the test grammer of the language where 8 symbol literals produce errors
+
 neuro-developmental disorders <fYheF1Zo>->
 
     Intellectual disability <1iJmUNhh>,
@@ -11,7 +14,7 @@ neuro-developmental disorders <fYheF1Zo>->
     Developmental coordination disorder <mJxL01yg>,
     Tourette syndrome <SHXJ4uAz>,
     Tic disorder <7i9cwDH3>,
-    Dyslexia <tIx7TnDu>,
+    Dyslexia (reading disorder) <tIx7TnDu>,
     Dyscalculia <GsRhVMwh>;
 
 

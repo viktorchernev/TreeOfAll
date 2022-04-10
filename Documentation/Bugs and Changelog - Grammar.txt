@@ -1,0 +1,7 @@
+v 0.1 - Initial test draft - The gold parser engine have been chosen for the task and some initial grammar drafted
+
+Bugs:
+When there is a literal that is 8 symbols long it is mistaken for an id, resulting in a syntax error
+Cyrilic symbols result in a lexical error
+
+Todo:

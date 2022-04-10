@@ -1,3 +1,6 @@
+// The second part in the literal "Insomnia (inability to sleep)" is added to fix a bug 
+// in the test grammer of the language where 8 symbol literals produce errors
+
 Sleep-wake disorders <dyI63HMn>->
 
 	sleep disorders <mX6BPqIG>,
@@ -9,10 +12,10 @@ Sleep-wake disorders <dyI63HMn>->
 
 sleep disorders <mX6BPqIG>->
 
-    Insomnia <WFAiwEFh>,
+    Insomnia (inability to sleep) <WFAiwEFh>,
     Hypersomnia <WwSxmvfI>,
     Idiopathic hypersomnia <PLwKdinW>,
-    Kleine–Levin syndrome <QhReSmjF>,
+    Kleine-Levin syndrome <QhReSmjF>,
     Insufficient sleep syndrome <cmz7pj3p>,
     Narcolepsy <7LJHC6Ig>,
     Restless legs syndrome <0LH3Qupi>,
@@ -41,6 +44,6 @@ circadian rhythm sleep disorders  <8UK4Gmo0>->
     Circadian rhythm sleep disorder <wu6Qo3Oc>,
     Delayed sleep phase disorder <8YmRHjzg>,
     Advanced sleep phase disorder <1IBLitmp>,
-    Irregular sleep–wake rhythm <MqvzUIsd>,
-    Non-24-hour sleep–wake disorder <8WpuZ7F5>,
+    Irregular sleep-wake rhythm <MqvzUIsd>,
+    Non-24-hour sleep-wake disorder <8WpuZ7F5>,
     Jet lag <a0RuM8eM>;

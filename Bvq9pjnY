@@ -1,3 +1,6 @@
+// The second part in the literal "vitamins (ABCDEK)" and "minerals (micronutrients)" is added to fix a bug 
+// in the test grammer of the language where 8 symbol literals produce errors
+
 human nutrition <8bvCDgaJ> ->
 
 	macronutrients <7BfDtacB>,
@@ -7,15 +10,15 @@ macronutrients <7BfDtacB> ->
 
 	carbohydrates <tdWoA3cr>,
 	fats <ThM0ytun>,
-	proteins <ugBSKqjO>,
+	protein <ugBSKqjO>,
 	
 	fiber <skkURA3I>,
 	water <PxMNW1pE>;
 
 micronutrients <XxivUl1V> ->
 
-	vitamins <peqrqXgP>,
-	minerals <ejY93JTn>,
+	vitamins (ABCDEK) <peqrqXgP>,
+	minerals (micronutrients) <ejY93JTn>;
 
 
 
@@ -41,7 +44,7 @@ fiber <skkURA3I> ->
 
 
 
-vitamins <peqrqXgP> ->
+vitamins (ABCDEK) <peqrqXgP> ->
 
 	vitamin A (all-trans-retinol and all-trans-retinyl-esters and all-trans-beta-carotene and other provitamin A carotenoids) <Qa15Xhwf>,
 	vitamin B1 (thiamine) <2gi8qAtI>,
@@ -59,7 +62,7 @@ vitamins <peqrqXgP> ->
 
 
 
-minerals <ejY93JTn> ->
+minerals (micronutrients) <ejY93JTn> ->
 
 	macrominerals <8AEHendO>,
 	trace minerals <XKH1kZOO>;
@@ -67,7 +70,7 @@ minerals <ejY93JTn> ->
 macrominerals <8AEHendO> ->
 
 	Calcium (Ca2+) <3vigElIV>,
-	Chlorine <Rs0xDaa0>,
+	Chlorine (Cl-) <Rs0xDaa0>,
 	Magnesium <r9IaK2iW>,
 	Phosphorus <Cxr2qmgG>,
 	Potassium <gYrURVBl>,
@@ -77,10 +80,10 @@ trace minerals <XKH1kZOO> ->
 
 	Cobalt <r0nYHcAc>,
     Copper <q98UCaQS>,
-    Chromium <bGodqy6g>,
+    Chromium (Cr+3) <bGodqy6g>,
     Iodine <Qse4hQom>,
     Iron <Kb9z7KA4>,
     Manganese <bIlc2FyR>,
     Molybdenum <0ggWGwkT>,
-    Selenium <VGJnbQQR>,
+    Selenium (Se) <VGJnbQQR>,
     Zinc <hvqprDIF>;
