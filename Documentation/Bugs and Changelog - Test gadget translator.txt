@@ -1,0 +1,13 @@
+v 5 - Winforms. Implemented a propper parser for the #Describe language, instead of just dummy parsing
+
+Bugs:
+"escape sequence-visible backslashes": escape backslashes are being displayed to the user.
+
+Done:
+The rudimentary idea of a special file containing all the sources/refferences has become obsolete with the concept of project files, thus file 0_source has been deleted.
+
+Todo:
+Fix the "escape sequence-visible backslashes" bug
+Remove the functionality to draw winforms treeview from the test gadget and implement it in the test app
+Do some initial refactoring
+Add proper nullable and exception handling

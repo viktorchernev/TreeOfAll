@@ -1,0 +1,7 @@
+v 1 - A simple winforms app that utilises the Test gadget v5, nothing special
+
+Todo:
+Remove the functionality to draw winforms treeview from the test gadget and implement it in the test app
+Add functionality to copy file address to clipboard from tree
+Add functionality to open new window at tree node
+Add refresh button
