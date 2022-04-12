@@ -1,0 +1,76 @@
+PRIVATE SCHEMES <eEV5Cjcu>->
+	real estate asset <H0i0z4C2>,
+	address <z0j4tpXK>,
+	human life decades <7tAXcqYj>;
+
+
+
+human life decades <7tAXcqYj>->
+	Early youth (Early youth (childhood) \, 0-9) <3POpxHaG>,
+	Early youth (Middle youth (tweens\/teens) \, 10-19) <K7T5wjZ8>,
+	Early youth (Late youth (young adult) \, 20-29) <GYNoBVyg>,
+	
+	Early youth (Early middle-age \, 30-39) <wpz4szpz>,
+	Early youth (Middle middle-age \, 40-49) <LajTFjiZ>,
+	Early youth (Late middle-age \, 50-59) <xOwAuruk>,
+	
+	Early youth (Early old-age \, 60-69) <iWDjEDgk>,
+	Early youth (Middle old-age \, 70-79) <A4K4UWsR>,
+	Early youth (Late old-age \, 80-89) <OVInaE8m>;
+	
+
+
+
+
+real estate asset <H0i0z4C2>->
+	collective parts of building <umkiyrbc>,
+	owned part of building <z9Mf13HO>;
+	
+owned part of building <z9Mf13HO> ->
+	outer parts <ktpfWglK>,
+	inner parts <SgUxebno>;
+
+inner parts <SgUxebno>->
+	Furniture & facility items (fridge\, washing machine\, etc) <eOuW3Xkn>,
+	Ideological groups - cosmetics\, usable space\, etc <PafAaRyO>,
+	Drapery - sheets\, matrecess\, mats\, cushins <LanYt6mx>,
+	Items - utencils\, skissors <SmWRZ6ht>;
+
+
+
+
+// those a's (like in "a district <cd4ucBr8>" are a hack around for a bug in the testing grammer. To be removed later)
+address <z0j4tpXK>-> country <k1YW0tCK>;
+country <k1YW0tCK>-> a province <ziro1Orr>;
+a province <ziro1Orr>-> municipality <e8YIFlnw>;
+
+municipality <e8YIFlnw>->
+	city <fqoBhjD0>,
+	town <UOluNJWV>,
+	vilage <dhSkhweG>,
+	area <3at5jR3l>,
+	road <IsFa1bD3>;
+
+city <fqoBhjD0>->
+	a district <cd4ucBr8>,
+	vilage <dhSkhweG>;
+
+town <UOluNJWV>->
+	a district <cd4ucBr8>,
+	vilage <dhSkhweG>;
+
+a district <cd4ucBr8>->
+	street <m2T8G4fQ>,
+	a building <1UxvgKus>,
+	site <Hrms2fuq>;
+	
+vilage <dhSkhweG>->
+	street <m2T8G4fQ>,
+	a building <1UxvgKus>,
+	site <Hrms2fuq>;
+
+street <m2T8G4fQ>-> a building <1UxvgKus>;
+a building <1UxvgKus>-> a entrance <uo2NI4tf>;
+a entrance <uo2NI4tf>-> floor <rMeWWGjz>;
+floor <rMeWWGjz>-> place <f1cole5J>;
+site <Hrms2fuq>-> place <R05vuC0b>;
