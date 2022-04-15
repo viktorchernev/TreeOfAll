@@ -1,10 +1,12 @@
 v 5 - Winforms. Implemented a propper parser for the #Describe language, instead of just dummy parsing
 
 Bugs:
-"escape sequence-visible backslashes": escape backslashes are being displayed to the user.
+#1: escape backslashes are being displayed to the user.
+#2: The translator enters an infinite loop if "ParseTextFiles" is called on non-existing file
 
 Done:
 The rudimentary idea of a special file containing all the sources/refferences has become obsolete with the concept of project files, thus file 0_source has been deleted.
+Fix #2
 
 Todo:
 Fix the "escape sequence-visible backslashes" bug

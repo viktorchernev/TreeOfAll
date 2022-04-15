@@ -1,0 +1,18 @@
+project name -> "software licenses";
+paths -> "0_root \> technologies and inventions \> information technologies \> software \> software licenses";
+completeness estimate -> very limited; //this is an estimation of how complete the lists are, not how well the toppic is covered
+contributors -> DemonOfReason;
+
+nodes -> 
+
+	<KIqqsVP2/GUgL0Cyx>,
+	<KIqqsVP2/esHQdUAX>;
+
+
+sources -> 
+
+	(C) Wikipedia - Comparison of free and open-source software licenses [https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licences],
+	(C) Github - Licenses [https://choosealicense.com/licenses/],
+	(C) Wikipedia - Software_license [https://en.wikipedia.org/wiki/Software_license];
+
+/**/
