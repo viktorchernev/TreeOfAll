@@ -1,0 +1,19 @@
+A simple unit in #Describe is the definition, also called an item or a termin. It consists of some literal text and a tag.
+
+
+
+
+A definition contains a literal text, id tag, and possibly more
+A definition is called an item or a termin
+A production is called a branch
+A single describe file is called a scripture
+All connected branches, that might span multiple scriptures are called a tree or a subtree (tree of human nutrition - e.g.)
+
+
+#Describe Id system
+Every item in a #Describe tree must have an unique id. But how big an id needs to be?
+
+
+
+Start at production marked with root attribute.
+If there isn't, start with the one that appears first and build the largest possible tree

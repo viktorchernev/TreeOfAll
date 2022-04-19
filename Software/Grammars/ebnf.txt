@@ -1,0 +1,67 @@
+"Name" = '#DESCRIBE markup Language'
+"Author" = 'DemonOfReason'
+"Version" = '0.1'
+"About" = '#DESCRIBE Language'
+"Character Mapping" = 'Unicode'
+"Case Sensitive" = False
+"Start Symbol" = <expressionlist>
+
+
+
+
+! Comments
+Comment Start = '/*'
+Comment End   = '*/'
+Comment Line  = '//'
+
+! Whitespace 
+{WS} = {Whitespace} - {CR} - {LF}
+Whitespace = {WS}+
+
+! Id, Literal
+Id = {AlphaNumeric}{AlphaNumeric}{AlphaNumeric}{AlphaNumeric}{AlphaNumeric}{AlphaNumeric}{AlphaNumeric}{AlphaNumeric}
+
+{Literal Ch} = {Printable} -[;] -[,] -[<] -[>] -['/']
+{Literal Start Ch} = {Literal Ch} -{Whitespace}
+Literal = ({Literal Start Ch} | '\'[;,<>/] | '\->') ({Literal Ch} | '\'[;,<>/] | '\->')* ({Literal Start Ch} | '\'[;,<>/] | '\->')
+        | ({Literal Start Ch} | '\'[;,<>/] | '\->')
+
+!Url
+!{Url Ch} = [ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~:/?#@$&()*+,;=]
+!Url = ({Url Ch} | '[' | ']' | '!' | '''')+
+
+! Symbols        
+Producer = '->'
+Separator = ','
+Terminator = ';'
+TagStart = '<'
+TagSeparator = '/'
+TagEnd = '>'
+!UrlStart = '['
+!UrlEnd = ']'
+
+
+
+! Productions
+<expressionlist> 
+    ::= <expressionlist> <expression>
+    |  <expression>
+
+<expression> 
+    ::= <item> Producer Terminator
+    | <item> Producer <item> Terminator
+    | <item> Producer <itemlist> Terminator
+       
+<itemlist> 
+    ::= <item> Separator <item>
+    | <item> Separator <itemlist>
+        
+<item> 
+    ::= Literal <tag>
+    !| Literal <url> <tag>
+
+<tag> ! No whitespaces in the tag
+    ::= TagStart Id TagEnd
+    | TagStart Id TagSeparator Id TagEnd
+
+!<url> ::= UrlStart Literal UrlEnd

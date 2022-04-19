@@ -9,7 +9,7 @@ The rudimentary idea of a special file containing all the sources/refferences ha
 Fix #2
 
 Todo:
-Fix the "escape sequence-visible backslashes" bug
+Find better way to figure out starting productions. Initially, every scripture file was intended to be part of one big tree - the tree of all, and thus, it made sense to have one root node tagged "rootnode" as a start. But since different files will be viewed now, and we don't want to have a single "rootnode" in every file, figuring out which productions to start as root(s) when building the visual tree is a chalange, at least in the way things are done. A workaround has been implemented where start productions are the ones that are not in any production left side, but this is slow and will give incorect visualization in case of recursion
 Remove the functionality to draw winforms treeview from the test gadget and implement it in the test app
 Do some initial refactoring
 Add proper nullable and exception handling
