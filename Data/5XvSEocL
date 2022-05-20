@@ -1,9 +1,18 @@
 PRIVATE SCHEMES <eEV5Cjcu>->
+	todo <tIIY1pGy>,
 	real estate asset <H0i0z4C2>,
 	address <z0j4tpXK>,
 	human life decades <7tAXcqYj>,
 	generation names <gensnams/SZ4K8D39>;
-	
+
+
+todo <tIIY1pGy> ->
+
+	cooking oils <fWBwyRlO>,
+	data storage devices <aS3Kd2F1>,
+	glue types <PKbJvMns>,
+	conspiracy theories <yhnVjAV4>,
+	weapons (cold weapons) <JLga2x4H>;
 
 
 human life decades <7tAXcqYj>->
@@ -42,8 +51,8 @@ inner parts <SgUxebno>->
 
 // those a's (like in "a district <cd4ucBr8>" are a hack around for a bug in the testing grammer. To be removed later)
 address <z0j4tpXK>-> country <k1YW0tCK>;
-country <k1YW0tCK>-> a province <ziro1Orr>;
-a province <ziro1Orr>-> municipality <e8YIFlnw>;
+country <k1YW0tCK>-> province <ziro1Orr>;
+province <ziro1Orr>-> municipality <e8YIFlnw>;
 
 municipality <e8YIFlnw>->
 	city <fqoBhjD0>,
@@ -53,25 +62,25 @@ municipality <e8YIFlnw>->
 	road <IsFa1bD3>;
 
 city <fqoBhjD0>->
-	a district <cd4ucBr8>,
+	district <cd4ucBr8>,
 	vilage <dhSkhweG>;
 
 town <UOluNJWV>->
-	a district <cd4ucBr8>,
+	district <cd4ucBr8>,
 	vilage <dhSkhweG>;
 
-a district <cd4ucBr8>->
+district <cd4ucBr8>->
 	street <m2T8G4fQ>,
-	a building <1UxvgKus>,
+	building <1UxvgKus>,
 	site <Hrms2fuq>;
 	
 vilage <dhSkhweG>->
 	street <m2T8G4fQ>,
-	a building <1UxvgKus>,
+	building <1UxvgKus>,
 	site <Hrms2fuq>;
 
-street <m2T8G4fQ>-> a building <1UxvgKus>;
-a building <1UxvgKus>-> a entrance <uo2NI4tf>;
-a entrance <uo2NI4tf>-> floor <rMeWWGjz>;
+street <m2T8G4fQ>-> building <1UxvgKus>;
+building <1UxvgKus>-> entrance <uo2NI4tf>;
+entrance <uo2NI4tf>-> floor <rMeWWGjz>;
 floor <rMeWWGjz>-> place <f1cole5J>;
 site <Hrms2fuq>-> place <R05vuC0b>;

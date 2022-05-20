@@ -18,7 +18,9 @@ v 6 - Rewritten for the new test grammar "attempt 2". Parse exceptions have been
 v 6.1 - Added features to support file to item and node to item
 
 Bugs:
-#1: escape backslashes are being displayed to the user.
+#1: Escape backslashes are being displayed to the user.
+#3: If file ends with comment and not new line for example, we get runaway group exception
+#4: Expression in expressions are shown as items - "software licenses" project e.g.
 
 Done:
 Starting productions are marked with flag - those are all the ones in the first file

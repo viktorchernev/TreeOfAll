@@ -5,3 +5,15 @@ culture <81LFNJ6z>->
 	cooking <IOkgTnQG>,
 	places <zXXu7P9Y>,
 	law <5vlbLQVw>;
+
+
+recreation <570BfVm7> ->
+	
+	hunting <5g25w6wa>,
+	fishing <ukjv1wbS>;
+
+
+
+fishing <ukjv1wbS> ->
+
+	insects as bait <InsectsAsBait/aEgUUuQL>;
