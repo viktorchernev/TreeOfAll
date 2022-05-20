@@ -13,3 +13,18 @@ Find better way to figure out starting productions. Initially, every scripture f
 Remove the functionality to draw winforms treeview from the test gadget and implement it in the test app
 Do some initial refactoring
 Add proper nullable and exception handling
+------------------------------------------------------------------------------------------------------------------------------------------------
+v 6 - Rewritten for the new test grammar "attempt 2". Parse exceptions have been added
+v 6.1 - Added features to support file to item and node to item
+
+Bugs:
+#1: escape backslashes are being displayed to the user.
+
+Done:
+Starting productions are marked with flag - those are all the ones in the first file
+
+Todo:
+Implement start production(s) marking attribute
+Remove the functionality to draw winforms treeview from the test gadget and implement it in the test app
+Do some more refactoring
+Add proper nullable and exception handling, not only for the parser

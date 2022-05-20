@@ -16,6 +16,7 @@ namespace TestGadget
             MyParser.Translations = new Dictionary<string, string>();
             MyParser.Files = new Dictionary<string, string>();
             MyParser.Productions = new Dictionary<string, List<string>>();
+            NodeDict = new Dictionary<TreeNode, string>();
         }
         public static void Reset()
         {
@@ -27,14 +28,21 @@ namespace TestGadget
         }
 
 
+        public static Dictionary<TreeNode, string> NodeDict;
         public static void WriteTree(TreeView tree)
         {
             tree.Nodes.Clear();
+            NodeDict = new Dictionary<TreeNode, string>();
 
             foreach (string pkey in MyParser.PrimaryProductions.Keys)
             {
                 string text = MyParser.Translations[pkey];
                 var node = tree.Nodes.Add(text);
+                if (!NodeDict.ContainsKey(node)) NodeDict.Add(node, pkey);
+                else
+                {
+                    var lll = NodeDict[node];
+                }
                 foreach(string lkey in MyParser.PrimaryProductions[pkey])
                 {
                     AddLayer(node, lkey);
@@ -47,8 +55,12 @@ namespace TestGadget
 
             string text = MyParser.Translations[key];
             var n = node.Nodes.Add(text);
-
-            if(MyParser.Productions.ContainsKey(key))
+            if(!NodeDict.ContainsKey(n)) NodeDict.Add(n, key);
+            else
+            {
+                var lll = NodeDict[n];
+            }
+            if (MyParser.Productions.ContainsKey(key))
             {
                 foreach (string rkey in MyParser.Productions[key])
                 {
@@ -93,6 +105,7 @@ namespace TestGadget
             if (filetext == null || string.IsNullOrWhiteSpace(filetext)) return;
 
             SourcePath = filename;
+            MyParser.CurrentSourcePath = filename;
             ParseSource(filename);
         }
         public static void ParseTextFiles(string path)
@@ -112,24 +125,24 @@ namespace TestGadget
 
             List<string> parsedFiles = new List<string>();
 
-            string cur = path + filename;
-            while (cur != "")
+            MyParser.CurrentSourcePath = path + filename;
+            while (MyParser.CurrentSourcePath != "")
             {
-                parsedFiles.Add(cur);
+                parsedFiles.Add(MyParser.CurrentSourcePath);
 
-                string filetext = ReadTextFile(cur);
+                string filetext = ReadTextFile(MyParser.CurrentSourcePath);
                 if (filetext != null 
                     && string.IsNullOrWhiteSpace(filetext) == false)
                 {
-                    ParseSource(cur);
+                    ParseSource(MyParser.CurrentSourcePath);
                 }
 
-                cur = "";
+                MyParser.CurrentSourcePath = "";
                 foreach (string s in MyParser.Files.Values)
                 {
-                    if (parsedFiles.Contains(path + s) == false)
+                    if (parsedFiles.Contains(s) == false)
                     {
-                        cur = path + s;
+                        MyParser.CurrentSourcePath = s;
                         break;
                     }
                 }
@@ -150,7 +163,7 @@ namespace TestGadget
 
 
 
-        static DescribeParser MyParser;
+        internal static DescribeParser MyParser;
         static void ParseSource(string path)
         {
             try
@@ -281,7 +294,7 @@ namespace TestGadget
                 if (p.Left.Tag.Type == TagType.File)
                 {
                     FileTag ftag = (FileTag)p.Left.Tag;
-                    Files.Add(ftag.Id, ftag.FileName);
+                    //Files.Add(ftag.Id, ftag.FileName);
                 }
 
                 List<string> bs = new List<string>();
@@ -291,7 +304,7 @@ namespace TestGadget
                     if (t.Tag.Type == TagType.File)
                     {
                         FileTag ftag = (FileTag)t.Tag;
-                        Files.Add(ftag.Id, ftag.FileName);
+                        //Files.Add(ftag.Id, ftag.FileName);
                     }
                 }
 
@@ -316,6 +329,7 @@ namespace TestGadget
 
 
         //Misc
+        internal string? CurrentSourcePath;
         string GetRuleName(Reduction r)
         {
             string ruleName = r.Parent.Head().Name();
@@ -374,6 +388,9 @@ namespace TestGadget
                 throw new Exception("Inproper TAG - tag[1] is not \"text\"");
             }
             string tag = DoText(rtext);
+            if(CurrentSourcePath != null && 
+                !Files.ContainsKey(tag)) 
+                    Files.Add(tag, CurrentSourcePath);
             return new SimpleTag(tag);
         }
         FileTag DoFileTag(Reduction r)
@@ -401,6 +418,9 @@ namespace TestGadget
                 throw new Exception("Inproper TAG - tag[3] is not \"text\"");
             }
             string tag = DoText(rftext);
+            if (CurrentSourcePath != null &&
+                !Files.ContainsKey(tag))
+                    Files.Add(tag, Path.GetDirectoryName(CurrentSourcePath) + "\\" + file);
             return new FileTag(tag, file);
         }
 

@@ -1,10 +1,18 @@
 v 1 - A simple winforms app that utilises the Test gadget v5, nothing special
 
 Done:
-Add a menue strip and the ability to open files
+Add a menu strip and the ability to open files
+Add refresh menu button
+Add close menu button
+Add Display file location and Copy file location menu buttons functionality
+Add Edit file menu button functionality
+--------------------------------------------------------------------------------
+v 2 - A simple winforms app that utilises the Test gadget v6.1, menues have been added
+
+Done:
+
 
 Todo:
 Remove the functionality to draw winforms treeview from the test gadget and implement it in the test app
-Add functionality to copy file address to clipboard from tree
 Add functionality to open new window at tree node
-Add refresh button
+Add functionality to remember which nodes were expanded
