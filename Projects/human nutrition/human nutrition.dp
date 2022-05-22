@@ -1,0 +1,20 @@
+project name -> "human nutrition";
+paths -> "0_root \> sciences \> medicine \> human medicine \> human nutrition";
+completeness estimate -> full; //this is an estimation of how complete the lists are, not how well the toppic is covered
+contributors -> DemonOfReason;
+
+nodes -> 
+
+	<Bvq9pjnY/8bvCDgaJ>;
+
+
+sources ->
+
+	(C) (wikipedia - Human nutrition) [https://en.wikipedia.org/wiki/Human_nutrition];
+
+
+/* 
+	The source is credible and covers the topic.
+	More topics to be covered in this project can include:
+	Calory content, Calories in alcohol, Amino acids.
+*/

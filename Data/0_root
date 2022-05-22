@@ -1,11 +1,11 @@
 ROOT <rootnode>->
 
-	SCHEMES <Az0NSSfj/tW2eET9Z>,
-	science <DEEix2Bz/fi58Z14e>,
-	culture <tTPGqTLn/81LFNJ6z>,
-	technologies and inventions <7BvZu1eS/JDrbx4Wg>,
+	SCHEMES <schemes/tW2eET9Z>,
+	science <science/fi58Z14e>,
+	culture <culture/81LFNJ6z>,
+	technologies and inventions <technologiesAndInventions/JDrbx4Wg>,
 	//industries <industries/xwl1Ckxi>,
-	obstacles <09dkXpKg/XxOyG5RJ>,
+	obstacles <obstacles/XxOyG5RJ>,
 	
-	PRIVATE SCHEMES <5XvSEocL/eEV5Cjcu>,
-	PRIVATE <0vvp16y3/poK4q2UC>;
+	PRIVATE SCHEMES <schemesPrivate/eEV5Cjcu>,
+	PRIVATE <private/poK4q2UC>;

@@ -1,0 +1,18 @@
+informatics <q8g6a4WG> ->
+
+	software <VPolPVFo>,
+	hardware <yDcEs8e2>;
+
+
+software <VPolPVFo> ->
+
+	licensing <NdwGmjvm>,
+	keystroke manuals <ngf3pvp5>;
+
+licensing <NdwGmjvm> ->
+	software license types <SoftwareLicenses/esHQdUAX>,
+	popular FOSS software licenses <SoftwareLicenses/GUgL0Cyx>;
+
+keystroke manuals <ngf3pvp5> ->
+
+	Heroes 3 + HD <Heroes3Keys/IUKPt52d>;

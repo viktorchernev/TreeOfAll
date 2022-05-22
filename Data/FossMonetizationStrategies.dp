@@ -1,0 +1,18 @@
+project name -> "FOSS monetization strategies";
+paths -> "0_root \> technologies and inventions \> information technologies \> software \> open-source software monetization strategies";
+completeness estimate -> decent; //this is an estimation of how complete the lists are, not how well the toppic is covered
+contributors -> DemonOfReason;
+
+nodes -> 
+
+	open-source software monetization strategies <FossMonetizationStrategies/OLDkSc1c>;
+
+
+sources -> 
+
+	(M) Karl Hughes blog - How Do Open Source Companies Make Money? [https://www.karllhughes.com/posts/open-source-companies]
+	(M) rubygarage blog - How Developers Can Make money with Open Source Projects [https://rubygarage.org/blog/how-make-money-with-open-source-projects]
+	(M) 6 Ways You Make Money as an Open Source Business [https://cult.honeypot.io/reads/6-ways-you-make-money-as-an-open-source-business/]
+	(M) How do open source software companies make money? [https://www.quora.com/How-do-open-source-software-companies-make-money];
+
+/**/

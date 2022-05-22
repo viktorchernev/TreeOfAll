@@ -20,7 +20,7 @@ v 6.1 - Added features to support file to item and node to item
 Bugs:
 #1: Escape backslashes are being displayed to the user.
 #3: If file ends with comment and not new line for example, we get runaway group exception
-#4: Expression in expressions are shown as items - "software licenses" project e.g.
+#4: Expression in expressions are shown as items - "software licenses" project e.g. but not in "MentalDisorders-AddictiveDisorders". look at Projects/laundry symbols/LaundrySymbols4test"
 
 Done:
 Starting productions are marked with flag - those are all the ones in the first file

@@ -1,0 +1,80 @@
+PRIVATE <poK4q2UC>->
+	health <xaWruLIE>,
+	fund management <eVOug0sT>,
+	cleaning and hygiene <0vTKYfMX>,
+	clothing and apparel <msXBRrUD>,
+	house keeping <b02DVKah>,
+	electronics <9gNhT1mg>,
+	op-sec <lUC10AhP>,
+	social assets <jubdl0xY>,
+	task protocols <Krcf1QDz>;
+
+
+
+
+
+
+health <xaWruLIE>->
+
+	Take BP medicines every morning <cbTUff2Z>,
+	Apply moisturizer creme on hands <9644KL6h>;
+
+
+
+cleaning and hygiene <0vTKYfMX>->
+
+	hygiene <private-hygiene/TN2QF4JU>,
+	
+	covid decontamination <private-decontamination/KNaUlXaN>,
+	washing <private-washing/edFf95ev>,
+
+	trash out <private-trashout/a6moqtL9>,
+	do dishes <private-dishes/qAMYMAvK>,
+	home cleaning <private-cleaning/ZGR2jr56>;
+
+
+house keeping <b02DVKah>->
+
+	sorting <private-sorting/q3Ph1kbD>,
+	cosmetic repairs <private-crepairs/YZljmVMn>,
+	Full repairs <htCvKrDH>;
+
+
+fund management <eVOug0sT>->
+
+	planning expenses <private-planex/feRmJ1IC>,
+	everyday expenses <private-everydayex/RIVzFnSA>,
+	stocking and refilling <private-stock/57wq3y0b>;
+
+
+op-sec <lUC10AhP> ->
+
+	Online activities getting exposed <KE9OZbeU>,
+	Data storage getting exposed <R2QXBj0y>,
+	Online communication getting exposed <Wttf5xId>,
+	Phone communication getting exposed <IgzovPWk>,
+
+	Buying behaviour getting exposed <oVvfDycF>,
+	Sensitive documents getting exposed <OMNbyHHp>,
+	Sensitive trash getting exposed <g7weJcYN>,
+	Sensitive actions getting exposed <hTHrZ8Dw>,
+
+	Secret getting exposed by blabbing <JirpPWYl>,
+	Secret getting exposed by sharing with untrustworthy 3rd party <pUuRHqyT>;
+
+
+
+electronics <9gNhT1mg> ->
+
+	New android phone (250) <LHYKovTS>,
+	Smart watch (150) <HWwd6mVo>,
+	New laptop (1000) <z0GLtolB>;
+
+
+
+
+
+task protocols <Krcf1QDz> ->
+
+	websites to login <private-login/HPcGSlXL>,
+	windows personalization <private-windows/ZtCZ7Dr3>;

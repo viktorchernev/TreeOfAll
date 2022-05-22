@@ -1,0 +1,87 @@
+//ENTRIES HAD BEEN CHANGED DUE TO TEST GRAMMAR LIMITATIONS:
+//Ko-amelesa 8\/5\/2.5 <N4DhoH1e>,											//Ко-Амелеса 8мг/5мг/2.5мг 
+//Vitagold vitamin D3\, Selene\, Zink\, Vit C <XEZVL7Go>
+
+
+sorting <q3Ph1kbD>->
+
+	medicines <P0rrJNtX>,
+	toiletries <k302UGkj>,
+	survival kit <JacNiZyy>,
+	Sort grow supplies <LY3uQO5c>,
+	Sort office supplies <8Lwt7OuD>,
+	Sort tech supplies <YJ5Col1C>,
+	Sort tattoo supplies <h0rZV0pI>,
+	Sort cleaning supplies cupboard <VH5Of8mC>,
+	Sort my cleaning supplies <QJQqHpbk>,
+	Sort shelf dwellers <qdbRJXLo>;
+
+
+
+survival kit <JacNiZyy>->
+
+	knife <MLz8Wjx5>,
+	other knife <I0MR4wKx>,
+	*compass <fcKjFkt7>,
+	*whistle <iZIcnamD>,
+	*pepper spray <oNbJ6vuL>,
+	*spork <RekofnCS>,
+	*swiss pliers <PUN3ySFz>,
+	some plastic bags <S5hzO4Nb>,
+
+	torch <5eUCDhu3>,
+	*spare batteries <6cflqfXB>,
+	2 regular lighters <fDqR3ExY>,
+	2 safety matchsticks <8a7hggvV>,
+	1 wind-resistant lighter <i1HSuWi7>,
+	*some fuel <uJWeXYxR>,														//95% alcohol, good for drinking as well
+	
+	a small pencil <PigQgQcJ>,
+	5 sheets of A4 pepper <eDYKEPDA>,
+	
+	toilet pepper <LE1zrCtq>,													//hygiene
+	*toothbrush and paste <puijXl1q>,
+	*dry deodorant <eqrhq2OC>,
+	*soap <TSuWBzqK>,
+	*bug spray <STDcyz8E>,
+
+	*some euro <QuDjplj4>,														//medicines and first aid
+	*prescription <WIgHz4v3>,
+	*bottle of iodine <H4FGRfBk>,
+	*aspirine <kMI2VjTW>,
+	*diarrhea medication <BM24AAr1>,
+	potassium permanganate for water purification <cSFPVeOJ>,
+	*tourniquette <FkcCeFHm>,
+	*some wipes <z5rxgKyD>,
+	*bandages <ohQY0pFi>,
+	*moleskin for blisters <3uNWiimN>;
+
+
+
+medicines <P0rrJNtX>->
+	Ko-amelesa 8-5-2.5 mg <N4DhoH1e>,											//Ко-Амелеса 8мг/5мг/2.5мг 
+	Nebilet 5mg <erEojmxZ>,														//Небилет 5мг
+
+	Vitagold vitamin D3 - Selene - Zink - Vit C <XEZVL7Go>,						//Vitagold витамин D3\, Селен\, Цинк\, Вит C
+	Vitamin C<5aQbHfsy>,														//Вит C
+	Jamieson D3 <gQVjKykx>,
+	Relamax B6 <vtCId0XJ>,
+
+	Iodine 5% sol in ethanol <p9Gfy0US>,
+	Iodasept creme <6gfne7Th>,													//Йодасепт
+	Kanesten 1% creme<V51PH5q1>,												//Канестен 1% крем 
+	Aroma Natural Honey Melon - hydrating creme <DV0x0fB3>,
+	FootGUARD deo powder <7TV9cqmP>;
+
+
+toiletries <k302UGkj>->
+	some shavers in reserve <qz7IZTSO>,
+	toothbrushes reserve <i6DFG5bU>,
+	soaps reserve <qBMeGIw9>,
+	shaving knives reserve <9SebP1jg>,
+
+	ear picks <itFd7Zxf>,
+	perfume and dry deo <H9c1P0MB>,
+	toothpicks <0QStqkzL>,
+	shaver <LpieLtKe>,
+	nail cutter <FJwWJzfr>;
