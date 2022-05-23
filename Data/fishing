@@ -1,3 +1,11 @@
 fishing <ukjv1wbS> ->
 
-	insects as bait <InsectsAsBait/aEgUUuQL>;
+	insects as bait [https://en.wikipedia.org/wiki/Fishing_bait] <InsectsAsBait/aEgUUuQL>,
+	worms as bait [https://en.wikipedia.org/wiki/Fishing_bait] <WormsAsBait/Vp1Pgjl0>,
+	fish as bait <ArBZz4Zn>,
+	other baits <Azso2TsC>;
+
+
+
+
+//other baits <Azso2TsC> -> cherry plums [https://en.wikipedia.org/wiki/Prunus_cerasifera], bread, caviar
