@@ -8,6 +8,8 @@ sorting <q3Ph1kbD>->
 	medicines <P0rrJNtX>,
 	toiletries <k302UGkj>,
 	survival kit <JacNiZyy>,
+	documents <17vcXI6i>,
+	tech <WICccqKr>,
 	Sort grow supplies <LY3uQO5c>,
 	Sort office supplies <8Lwt7OuD>,
 	Sort tech supplies <YJ5Col1C>,
@@ -16,6 +18,14 @@ sorting <q3Ph1kbD>->
 	Sort my cleaning supplies <QJQqHpbk>,
 	Sort shelf dwellers <qdbRJXLo>;
 
+
+
+documents <17vcXI6i> ->
+
+	Educational and personal <NAxwuhg6>,
+	Financial <txhCVWWY>,
+	Medical <ImQNSGjr>,
+	Nostalgic and Warranties <UgWTiwu1>;
 
 
 survival kit <JacNiZyy>->
