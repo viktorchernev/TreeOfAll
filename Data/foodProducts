@@ -4,9 +4,21 @@ food products <4Rzk6YCr> ->
 	
 	vegetables <vegetables/9nD55spf>,
 	fruits <fruits/eUYee5TX>,
-	nuts <nuts/Mgk2gSoj>;
-	//seeds <seeds/>;
-	//herbs and spices <herbs/>;
+	nuts <nuts/Mgk2gSoj>,
+	seeds <seeds/S7I8yJcm>,
+	herbs and spices <spices/Ic2Ykh7m>,
+	
+	mushrooms <jcjSF7uX>,
+	microorganisms <CPkkk1KZ>,
+	
+	shellfish <7DgeKiPg>,
+	crustaceans <LKzpvzyJ>,
+	insects <Qm2hLfcd>,
+	
+	fish <lkJghvQW>,
+	birds <bBiaYQr4>,
+	mammals <Q4BLNMIT>;
+
 
 
 minerals <DN3GDqPf> ->

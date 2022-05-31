@@ -77,4 +77,16 @@ electronics <9gNhT1mg> ->
 task protocols <Krcf1QDz> ->
 
 	websites to login <private-login/HPcGSlXL>,
-	windows personalization <private-windows/ZtCZ7Dr3>;
+	windows personalization <private-windows/ZtCZ7Dr3>,
+	github push <L3tEGgEw>;
+
+
+
+
+github push <L3tEGgEw> ->
+
+	git status <8tpw0FD4>,
+	git add . <AQHG2xgV>,
+	git status <8tpw0FD4>,
+	git commit -m "data" <ZrcjeeXO>,
+	git push origin master <3Vo98ZvS>;
