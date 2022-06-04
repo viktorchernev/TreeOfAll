@@ -2,10 +2,34 @@ fishing <ukjv1wbS> ->
 
 	insects as bait [https://en.wikipedia.org/wiki/Fishing_bait] <InsectsAsBait/aEgUUuQL>,
 	worms as bait [https://en.wikipedia.org/wiki/Fishing_bait] <WormsAsBait/Vp1Pgjl0>,
+	fruit and vegetable baits <FalkuoNL>,
 	fish as bait <ArBZz4Zn>,
+	compound baits <nerhrlW1>,
 	other baits <Azso2TsC>;
 
 
 
+fruit and vegetable baits [https://www.zahranka.bg/bg/blog/posledni-novini/vidove-strv-ot-zhivotinski-i-rastitelen-proizkhod] <FalkuoNL> ->
+    
+    blueberries <xSFQsLgI>,
+    blackberries <IkiyODRQ>,
+    mulberies <aSRpH3zE>,
+    cherry plums [https://en.wikipedia.org/wiki/Prunus_cerasifera] <WSVZCGi7>,
+    corn <ijjz9sdC>;
 
-//other baits <Azso2TsC> -> cherry plums [https://en.wikipedia.org/wiki/Prunus_cerasifera], bread, caviar
+
+
+compound baits <nerhrlW1> ->
+
+    Protein balls <42v5SHRP>,
+	Bread <ucbT9vZu>,
+	Kacamak <BbEgwHM3>;
+
+
+
+other baits <Azso2TsC> ->
+
+    blood dust <Tb0tj4oF>,
+    spleen <FVsZnVaf>,
+    liver <FPE9wDHi>,
+	caviar <uWz7YJtn>;
