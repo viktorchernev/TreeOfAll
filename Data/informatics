@@ -11,7 +11,8 @@ hardware <yDcEs8e2> ->
 software <VPolPVFo> ->
 
 	licensing <NdwGmjvm>,
-	keystroke manuals <ngf3pvp5>;
+	keystroke manuals <ngf3pvp5>,
+	games <EtSk80MV>;
 
 licensing <NdwGmjvm> ->
 	software license types <SoftwareLicenses/esHQdUAX>,
@@ -20,3 +21,8 @@ licensing <NdwGmjvm> ->
 keystroke manuals <ngf3pvp5> ->
 
 	Heroes 3 + HD <Heroes3Keys/IUKPt52d>;
+
+
+
+
+games <EtSk80MV> -> NES games <GamesNES/byo6hBSs>;
