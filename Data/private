@@ -42,8 +42,8 @@ house keeping <b02DVKah>->
 
 fund management <eVOug0sT>->
 
+	expenses <private-expenses/iNRAb7HM>,
 	planning expenses <private-planex/feRmJ1IC>,
-	everyday expenses <private-everydayex/RIVzFnSA>,
 	stocking and refilling <private-stock/57wq3y0b>;
 
 
@@ -78,7 +78,10 @@ task protocols <Krcf1QDz> ->
 
 	websites to login <private-login/HPcGSlXL>,
 	windows personalization <private-windows/ZtCZ7Dr3>,
-	github push <L3tEGgEw>;
+	github push <L3tEGgEw>,
+	install media wiki on XAMPP <520nEVaz>,
+	backup an Android phone <me8PaBoO>,
+	Android apps <Exde5OMY>;
 
 
 
@@ -90,3 +93,51 @@ github push <L3tEGgEw> ->
 	git status <8tpw0FD4>,
 	git commit -m "data" <ZrcjeeXO>,
 	git push origin master <3Vo98ZvS>;
+
+
+
+install media wiki on XAMPP <520nEVaz> ->
+
+	Download and extract MediaWiki <0QoMyCXH>,
+	Rename MediaWiki folder to something appropriate <pRk1Ab58>,
+	Copy MediaWiki folder to "xampp(SLASH)htdocs" <Zf0zMWQw>,
+	Enable php extention "intl" by uncommenting "extension=intl" from "xampp(SLASH)php(SLASH)php.ini" <w26KSTzP>,
+	Configure MediaWiki by going through the installation - localhost\, listopedia_db\, root <z05JFxwM>;
+
+
+
+backup an Android phone <me8PaBoO> ->
+
+	Copy files in the main dir of internal storage (text editors) <18JuiGUg>,
+	Copy the download folder <pJH2xxUX>,
+	Copy the camera folder <z4EjCf3W>,
+
+	Look if there is call history and phone-only contacts that need to be extracted <REKGTQe4>,
+	Look if there is browser content that need to be extracted <wTa6EDmE>,
+	Take a list of all installed apps <l0xxkrMz>,
+	Extract data from particular apps if necessairy <Jkag7EMW>;
+
+
+
+Android phone apps <Exde5OMY> ->
+
+	Adobe Acrobat Reader <pNGdWYSv>,
+	Wikipedia <S98LrGvj>,
+	Notepad++ <1V6t077r>,
+	Broshura.bg <HD1RkHIX>,
+	All Backup Restore - Darez Hiko <nYHXksdv>,
+	DuckDuckGo <RoO7GAo8>,
+	Files - Google <B3mkRdir>,
+	File Manager + <QZWShBLK>,
+	Schreddit <1khT8Y9J>,
+	Signal <2LbLt9lG>,
+	Sim Card Reader <Y2QqeiFK>,
+	Sinoptik.bg <0ZHLWKNQ>,
+	Shazam <dDGfcVAm>,
+	Google translate <4dsFCW8Q>,
+
+	Viber <xP3oueqS>,
+	Messenger <fXciRywr>,
+
+	Call Recorder <8Ksq3GnD>,
+	Sound Recorder <2nwA0AHd>;

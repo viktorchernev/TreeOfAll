@@ -1,0 +1,59 @@
+expenses <iNRAb7HM> ->
+
+	bills and utilities (37-222-322) <A2a5GNzW>,
+	technical consumables (70) <cUBKfw3m>,
+	food (450) <cG0n9KVY>,								//742-842, 371-421
+
+	private consumables (62-77) <ToUp4bwd>,
+	clothes (50) <to4Ufmra>,							//112-127
+
+	hobbies (-) <EbIMX0Fr>,
+	entertainment (100) <CeLtTQTh>,
+	projects (400) <vr6Pgb7Y>;
+
+
+
+bills and utilities (37-222-322) <A2a5GNzW> ->
+
+	internet (22) <L9dAXLWS>,
+	phone (15) <9nFEnrP2>,
+	electricity (150-250) <wT2RNF2n>,
+	water (25) <duBYXFU0>,
+	taxes (10) <I2uqKP3D>;
+
+
+
+technical consumables (70) <cUBKfw3m> ->
+
+	Toilet paper (30) <aMlKHuca>,
+	Cleaning alcohol (20) <30vXgT2a>,
+
+	Single-use cups (5) <xF1LoCv3>,
+	Trash bags (5) <Ustk4fQK>,
+	//Vacuum bags
+
+	Dishwashing liquid (6) <nzzNmm45>,
+	Dishwashing sponges (2) <yLEDTUFP>,
+	Dishwashing scrubs (2) <moFPgZ71>,
+	Washing powder (10) <E1DxkRg4>;
+	//Floor cleaner
+	//Enzymatic cleaner
+	//Anti-calc
+	//Degreaser
+
+
+
+private consumables (62-77) <ToUp4bwd> ->
+
+	BP medicines (22) <cDqTJ66N>,
+	Vitamins (20-2) <1QNDTFE4>,
+
+	Soap bars (3) <vck3p1ec>,
+	Shampoo (10) <2a2jNbBg>,
+	Toothpaste and brushes (5) <ayyKYidg>,
+	Razors (2) <yxgG2QhC>,
+	Ear cleaning sticks (3) <iNatEXAa>,
+	Toothpicks (-) <yz5so9Xl>,
+
+	Dry deodorants (7) <OqmfQ4fM>,
+	*Perfume (15) <9EF2UYkl>;

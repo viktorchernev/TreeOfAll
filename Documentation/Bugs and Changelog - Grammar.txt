@@ -20,6 +20,8 @@ v 0.2 - Second test draft - Grammar is more complex and still flawed. Bug #1 has
 Bugs:
 #2: "globalization": Cyrilic symbols result in a lexical error.
 #3: "’" symbol produces an error
+#4: No escape escape sequence - "\\"
+#5: No forward slash allowed - "/"
 
 Todo:
 Fix bugs
