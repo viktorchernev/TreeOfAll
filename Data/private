@@ -1,12 +1,14 @@
 PRIVATE <poK4q2UC>->
-	health <xaWruLIE>,
-	fund management <eVOug0sT>,
+	health <private-health/xaWruLIE>,
+	fund management <private-fundmanagement/eVOug0sT>,
 	cleaning and hygiene <0vTKYfMX>,
 	clothing and apparel <msXBRrUD>,
 	house keeping <b02DVKah>,
 	electronics <9gNhT1mg>,
+
 	op-sec <lUC10AhP>,
 	social assets <jubdl0xY>,
+
 	task protocols <Krcf1QDz>;
 
 
@@ -14,10 +16,6 @@ PRIVATE <poK4q2UC>->
 
 
 
-health <xaWruLIE>->
-
-	Take BP medicines every morning <cbTUff2Z>,
-	Apply moisturizer creme on hands <9644KL6h>;
 
 
 
@@ -40,11 +38,7 @@ house keeping <b02DVKah>->
 	Full repairs <htCvKrDH>;
 
 
-fund management <eVOug0sT>->
 
-	expenses <private-expenses/iNRAb7HM>,
-	planning expenses <private-planex/feRmJ1IC>,
-	stocking and refilling <private-stock/57wq3y0b>;
 
 
 op-sec <lUC10AhP> ->
