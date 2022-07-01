@@ -10,6 +10,7 @@ sorting <q3Ph1kbD>->
 	survival kit <JacNiZyy>,
 	documents <17vcXI6i>,
 	tech <WICccqKr>,
+	laundry baskets <c4Ywvmvw>,
 	Sort grow supplies <LY3uQO5c>,
 	Sort office supplies <8Lwt7OuD>,
 	Sort tech supplies <YJ5Col1C>,
@@ -85,6 +86,7 @@ medicines <P0rrJNtX>->
 
 
 toiletries <k302UGkj>->
+
 	some shavers in reserve <qz7IZTSO>,
 	toothbrushes reserve <i6DFG5bU>,
 	soaps reserve <qBMeGIw9>,
@@ -95,3 +97,16 @@ toiletries <k302UGkj>->
 	toothpicks <0QStqkzL>,
 	shaver <LpieLtKe>,
 	nail cutter <FJwWJzfr>;
+
+
+laundry baskets <c4Ywvmvw> ->
+
+	old pillow cases <oXEiWcvO>,
+	old underwear <MPEyCGP9>,
+
+	fresh pillow cases <pmo3Wm4J>,
+	fresh underwear and socks <KkrIdZeO>,
+
+	dirty pillow cases <2sWb3wzl>,
+	dirty underwear and socks <rqa6KW32>,
+	dirty laundry <mijbOIeC>;

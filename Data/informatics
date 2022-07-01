@@ -12,7 +12,11 @@ software <VPolPVFo> ->
 
 	licensing <NdwGmjvm>,
 	keystroke manuals <ngf3pvp5>,
-	games <EtSk80MV>;
+	types of software <qcdOduAT>;
+
+
+
+
 
 licensing <NdwGmjvm> ->
 	software license types <SoftwareLicenses/esHQdUAX>,
@@ -23,6 +27,13 @@ keystroke manuals <ngf3pvp5> ->
 	Heroes 3 + HD <Heroes3Keys/IUKPt52d>;
 
 
+
+	
+
+types of software <qcdOduAT> ->
+
+	games <EtSk80MV>,
+	compilation <software-compilation/eeBw728E>;
 
 
 games <EtSk80MV> -> NES games <GamesNES/byo6hBSs>;
