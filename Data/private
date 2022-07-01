@@ -9,7 +9,8 @@ PRIVATE <poK4q2UC>->
 	op-sec <lUC10AhP>,
 	social assets <jubdl0xY>,
 
-	task protocols <Krcf1QDz>;
+	task protocols <Krcf1QDz>,
+	personal lists <Ec5mLPL6>;
 
 
 
@@ -75,8 +76,7 @@ task protocols <Krcf1QDz> ->
 	github push <L3tEGgEw>,
 	install media wiki on XAMPP <520nEVaz>,
 	backup an Android phone <me8PaBoO>,
-	Android apps <Exde5OMY>,
-	youtube channels <private-youtube/XFEuNWI9>;
+	Android apps <Exde5OMY>;
 
 
 
@@ -111,6 +111,18 @@ backup an Android phone <me8PaBoO> ->
 	Look if there is browser content that need to be extracted <wTa6EDmE>,
 	Take a list of all installed apps <l0xxkrMz>,
 	Extract data from particular apps if necessairy <Jkag7EMW>;
+
+
+
+
+	
+personal lists <Ec5mLPL6> ->
+
+	Android phone apps <Exde5OMY>,
+	youtube channels <private-youtube/XFEuNWI9>;
+
+
+
 
 
 
