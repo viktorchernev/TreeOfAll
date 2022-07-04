@@ -51,6 +51,7 @@ news <ZM0fgrXW>->
 	PBS NewsHour [https://www.youtube.com/user/PBSNewsHour] <mC3fWkUT>,
 	Nova News [https://www.youtube.com/channel/UCspzCJuJ-n2frc9o-rXXZBg] <gnD9qZSv>,
 	Bulletin of the Atomic Scientists [https://www.youtube.com/user/BulletinAtomic] <qWG0RCPk>;		// Новините на NOVA
+
 tech <BZepqSEv>->
 	TechAltar [https://www.youtube.com/channel/UCtZO3K2p8mqFwiKWb9k7fXA] <pbFs3lV5>,				// tech companies review
 	ColdFusion [https://www.youtube.com/user/coldfustion] <nHbyaH53>,								// tech
@@ -64,27 +65,38 @@ tech <BZepqSEv>->
 	Odd Tinkering [https://www.youtube.com/channel/UCf_suVrG2dA5BTjJhNLwthQ] <NMswIuBE>,			// restorations
 	TronicsFix [https://www.youtube.com/channel/UCfOrKQtC1tDfGf_fFVb8pYw] <nMHiUeMu>,				// fixing hardware
 	Thomas Schwenke [https://www.youtube.com/user/ehochzwei] <OzCp8k9C>;							// 3d animation how it works
+
 comedy <15J8aFsp>->
 	Svetat na vankata [https://www.youtube.com/channel/UCNYHvblT3JZr6MHCtybGSdw] <UACytr91>,		// Светът на Ванката
 	Key & Peele [https://www.youtube.com/channel/UCdN4aXTrHAtfgbVG9HjBmxQ] <Uq0pIAsB>,
 	Remi GAILLARD [https://www.youtube.com/user/nqtv] <sqxfnQuP>,									// Rémi GAILLARD
 	Tsvetoslav Tsonev [https://www.youtube.com/user/TheBleChannel] <CozqQQof>,
 	thejuicemedia [https://www.youtube.com/user/thejuicemedia] <rrGN486B>;							// honest government adds
+
 gaming <edXDEuLy>->
-	Alex_The_Magician [https://www.youtube.com/channel/UCmmDd6zpr0DiNXEV1-aY78g] <57jFScpK>,		// Heroes 3
 	Daily Dose of Gaming [https://www.youtube.com/channel/UCmdmZp1K_kjXYBKgyqg_5LA] <p5MKpcUg>,
-	SergiuHellDragoonHQ [https://www.youtube.com/user/SergiuHellDragoonHQ] <46BEr3M8>,
-	HuShang Tutorials [https://www.youtube.com/channel/UC_2FZDFti08MI5WRaZUZSIQ] <gV4Kyil6>,		// Starcraft 2
-	LowkoTV [https://www.youtube.com/user/Felixje0] <xLZdXnKD>,										// Starcraft 2
-	PZA Total war [https://www.youtube.com/channel/UC7ZdmUmjOH5TziSB5teWdQg] <lS0kMYeA>,			// Total war
-	SpaceX - KSP [https://www.youtube.com/channel/UCWARraXlBgkBU5YYY8XPJxw] <PsbylDxJ>,				// Kerbal Space Program
-	Hornster [https://www.youtube.com/channel/UCTn2oRbEeUKbXyoAZgYPfGw] <Ed5AQ0Mx>,					// Among us
-	BlyOnFire [https://www.youtube.com/channel/UCK5SPkqU-7KicZFQUXipGgg] <rUnesEwQ>,				// Starcraft 2
-	Dbrunski125 [https://www.youtube.com/channel/UCFc8CBNDUFLc1hN5UayNR8g] <iKQ13rIt>,				// Diablo 2
+	Alex_The_Magician [https://www.youtube.com/channel/UCmmDd6zpr0DiNXEV1-aY78g] <57jFScpK>,		// Heroes 3
 	Norovo [https://www.youtube.com/channel/UC9Z-w0L3f_F-oyWNY_hrDlw] <EByelgYN>,					// Heroes 3
-	CarbotAnimations [https://www.youtube.com/user/CarbotAnimations] <YEg9hOpc>;					// carbot
+	LowkoTV [https://www.youtube.com/user/Felixje0] <xLZdXnKD>,										// Starcraft 2
+	BlyOnFire [https://www.youtube.com/channel/UCK5SPkqU-7KicZFQUXipGgg] <rUnesEwQ>,				// Starcraft 2
+	HuShang Tutorials [https://www.youtube.com/channel/UC_2FZDFti08MI5WRaZUZSIQ] <gV4Kyil6>,		// Starcraft 2
+	Dbrunski125 [https://www.youtube.com/channel/UCFc8CBNDUFLc1hN5UayNR8g] <iKQ13rIt>,				// Diablo 2
+	CarbotAnimations [https://www.youtube.com/user/CarbotAnimations] <YEg9hOpc>,					// carbot
+	SpaceX - KSP [https://www.youtube.com/channel/UCWARraXlBgkBU5YYY8XPJxw] <PsbylDxJ>,				// Kerbal Space Program
+	PZA Total war [https://www.youtube.com/channel/UC7ZdmUmjOH5TziSB5teWdQg] <lS0kMYeA>,			// Total war
+	Hornster [https://www.youtube.com/channel/UCTn2oRbEeUKbXyoAZgYPfGw] <Ed5AQ0Mx>,					// Among us
+	Nintendo Life [https://www.youtube.com/c/nintendolife] <7fN8uvxo>,								// NES, Switch, etc
+	SergiuHellDragoonHQ [https://www.youtube.com/user/SergiuHellDragoonHQ] <46BEr3M8>;				// some dipshittery
 
+craft <2tjM2hAk> ->
+	Hornet King [https://www.youtube.com/channel/UCb-mXwDehQf0pEgS0rlGJ9w] <ZekjCsro>,				// removing wasps
+	Lofty Pursuits [https://www.youtube.com/user/LoftyPursuits] <eEt0RIUf>,							// making candy
+	Luke The Window Cleaner [https://www.youtube.com/channel/UCYgIUkKO4SqaayMM4sU-ovg] <NVMTMN7J>,	// window cleaning
+	Minibricks craft [https://www.youtube.com/c/Minibricks_co] <LCjpQQ73>,							// making dioramas
+	Blacktail Studio [https://www.youtube.com/channel/UC6I0KzAD7uFTL1qzxyunkvA] <U3xiyMKX>;			// making epoxy tables
 
+audio books <hzS770GO>->
+	Bardic Knowledge [https://www.youtube.com/c/BardicKnowledge] <rVUFKcpq>;						// Magician and more
 
 
 
@@ -97,7 +109,6 @@ gaming <edXDEuLy>->
 precious metals <8W1f4ukN> ->
 	sreetips [https://www.youtube.com/user/sreetips] <6sk5Bey9>,
 	Strategic Wealth Preservation - SWP [https://www.youtube.com/channel/UC-Ay6AYTEP4j0WRNpq_dZWQ] <yle7crpN>;
-
 finance <Me3jB6rK> ->
 	Whiteboard Crypto [https://www.youtube.com/channel/UCsYYksPHiGqXHPoHI-fm5sg] <Ymtw4jQ5>,
 	Slidebean [https://www.youtube.com/c/Slidebean] <Oczz8T21>;
@@ -152,6 +163,7 @@ history <jbbYa29f> ->
 	UsefulCharts [https://www.youtube.com/user/usefulchartsdotcom] <yFAo14qj>;
 
 unsorted and bullshit <bLSlDAvL> ->
+	Business Insider [https://www.youtube.com/user/businessinsider] <iHjGQzgy>,
 	Jay Leno's Garage [https://www.youtube.com/user/JayLenosGarage] <reClKd2t>,						// car reviews
 	Curious Archive [https://www.youtube.com/channel/UCweDKPSF65wRw5VHFUJYiow] <H4jBy7VM>,
 	Beautiful Science [https://www.youtube.com/channel/UCxd5WFhE_tkvEmAT-UBRsbA] <iG5fQ3mX>,
@@ -252,12 +264,7 @@ engineering <rEa5iPox> ->
 
 
 
-craft <2tjM2hAk> ->
-	Hornet King [https://www.youtube.com/channel/UCb-mXwDehQf0pEgS0rlGJ9w] <ZekjCsro>,
-	Lofty Pursuits [https://www.youtube.com/user/LoftyPursuits] <eEt0RIUf>,
-	Luke The Window Cleaner [https://www.youtube.com/channel/UCYgIUkKO4SqaayMM4sU-ovg] <NVMTMN7J>,
-	Minibricks craft [https://www.youtube.com/c/Minibricks_co] <LCjpQQ73>,
-	Blacktail Studio [https://www.youtube.com/channel/UC6I0KzAD7uFTL1qzxyunkvA] <U3xiyMKX>;
+
 
 hobbies <zW2ehVp6>->
 	Stitch Sisters [https://www.youtube.com/channel/UCuBcWWG0QvylWUsiJSsPxCw] <cQTOTj2w>,
@@ -274,8 +281,7 @@ hobbies <zW2ehVp6>->
 	90 Second Mycology [https://www.youtube.com/channel/UCJEHCl2fZS8lyl185Jg02-Q] <xM9d4VRK>,
 	Twitch Fishing [https://www.youtube.com/channel/UCMzNvAM4mXxhmF95zmwt6jw] <SrwVwTfg>;
 
-audio books <hzS770GO>->
-	Bardic Knowledge [https://www.youtube.com/c/BardicKnowledge] <rVUFKcpq>;
+
 
 animation and cinema <bLQ1fGjS> ->
 	Minute Movies [https://www.youtube.com/channel/UCtEYIXdB50L-vy-KORei7VA] <Yt9C3Pku>,

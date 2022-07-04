@@ -2,6 +2,14 @@
 
 NES games <byo6hBSs> ->
 
+	popular games <K67yCQqR>,
+	all licensed games <M8RaXxVB>,			//should be 716
+	homebrew games <Wp4UGsvU>;
+
+
+
+popular games <K67yCQqR> ->
+
 	Super Mario Bros. <tIJcj08U>,
 	Super Mario Bros. 2 <iSmtW7HL>,
 	Super Mario Bros. 3 <v5lLtAzr>,
@@ -39,3 +47,28 @@ NES games <byo6hBSs> ->
 	Battletoads & Double Dragon <emRDx9rb>,
 	Tetris 2 <pJMz4tJb>,
 	Pipe Dream <gdc3bNzq>;
+
+
+
+all licensed games <M8RaXxVB> ->
+
+	Mega Man 2 <m4TqzTwl>,
+	Mega Man 3 <gUryrGyF>,
+	Bubble Bobble <OfOk00Zl>,
+	Kirbys Adventure <EIBFcWXp>,
+	Punch Out <SocqdQrP>,
+	Castlevania <MVPpciB0>,
+	Castlevania III Draculas Curse <qItOhNyv>,
+	Batman the Video Game <ermqRqIJ>,
+	Lifeforce <7CgDoIl7>,
+	Ducktales <x8YfkuJf>,
+	Legend of Zelda <HLZTmIHE>,
+	Ninja Gaiden 2 <zrLvoB7f>,
+	Gargoyles Quest 2 <MGrZB8Mi>,
+	Mighty Final Fight <hwaizSKu>;
+
+
+
+homebrew games <Wp4UGsvU> ->
+
+	Chumlee's Adventure: The Quest for Pinky <Jq2ULJn4>;
