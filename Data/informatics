@@ -77,7 +77,8 @@ games <EtSk80MV> ->
 	arcade games <4HR9VCT4>,
 	NES games <GamesNES/byo6hBSs>,
 	DOS games (1990s) <sms7kf2I>,
-	retro PC games (2000s) <mVuQ3Xjb>;
+	retro PC games (2000s) <mVuQ3Xjb>,
+	PC games <mwYCiF6e>;
 
 arcade games <4HR9VCT4> ->
 	Metal Slug X <oyczRq8A>,
@@ -95,4 +96,7 @@ retro PC games (2000s) <mVuQ3Xjb> ->
 	Sven <AVsVr8Yb>,
 	Elasto Mania <22qrcVly>,
 	Stephen King's F13 <QMexWWlo>;
-	
+
+PC games <mwYCiF6e> ->
+
+	Horizon Zero Dawn <HDu7xnqR>;

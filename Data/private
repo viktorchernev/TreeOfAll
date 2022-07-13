@@ -4,7 +4,7 @@ PRIVATE <poK4q2UC> ->
 	health <private-health/xaWruLIE>,
 	fund management <private-fundmanagement/eVOug0sT>,
 	cleaning and hygiene <0vTKYfMX>,
-	clothing and apparel <msXBRrUD>,
+	clothing and apparel <private-clothing/msXBRrUD>,
 	house keeping <b02DVKah>,
 	electronics <9gNhT1mg>,
 
@@ -31,6 +31,9 @@ cleaning and hygiene <0vTKYfMX>->
 	trash out <private-trashout/a6moqtL9>,
 	do dishes <private-dishes/qAMYMAvK>,
 	home cleaning <private-cleaning/ZGR2jr56>;
+
+
+
 
 
 house keeping <b02DVKah>->
