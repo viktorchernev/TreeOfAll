@@ -1,5 +1,25 @@
 fishing <ukjv1wbS> ->
 
+	hucks <ztQLf8w5>,
+	knots <iGL9Nxzb>,
+	baits <YX1xIu9t>;
+
+
+
+
+knots <iGL9Nxzb> ->
+
+	Uni knot <xaIh3wWS>,
+	Loop knot <0xMRaW9A>;
+	
+	//eyeless aka spade hooks
+	
+	
+
+
+
+baits <YX1xIu9t> ->
+
 	insects as bait [https://en.wikipedia.org/wiki/Fishing_bait] <InsectsAsBait/aEgUUuQL>,
 	worms as bait [https://en.wikipedia.org/wiki/Fishing_bait] <WormsAsBait/Vp1Pgjl0>,
 	fruit and vegetable baits <FalkuoNL>,
