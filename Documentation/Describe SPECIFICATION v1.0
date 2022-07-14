@@ -1,0 +1,79 @@
+DESCRIBE LANGUAGE SPECIFICATION VERSION 1
+
+
+
+1. COMMENTS
+There are two types of comments - single line comments and multi-line comments.
+Single line comments start with double forward slashes ("//") and end with new line ("\n" or "\r\n" ).
+Multi-line comments start with a froward slash and a star ("/*") and end with a star and a forward slash ("*/").
+Comments cannot be nested. Comments in Describe are like comments in C++ or C#
+
+
+2. WHITESPACES
+Leading and trailing whitespaces are ignored, while inside statements they act as delimiter, although
+their count and type is ignored - that is " " equals "    " equals "\t". 
+New lines count is also ignored - "\n" equals "\n\n\n".
+
+
+3. TERMINS
+The describe markup language is all about different pieces of information that are arranged in lists.
+Those pieces of information are called ITEMs or TERMINs (both are synonimous).
+A TERMIN consists of some LITERAL and an ITEMTAG, and optionaly a LINK HEAP.
+The LITERAL is self explanatory - an empty item is meaningless. 
+The ITEMTAG provides the unique ID for the item.
+
+	3-1. ITEMTAG
+	An ITEMTAG is enclosed in angle brackets.
+	ITEMTAGS consist of an ID.
+	An example of an ITEMTAG would be "<IkwP2Saz>" or "<C>"
+	An ITEMTAG is "<", 0 or more whitespaces, ID, 0 or more whitespaces, ">".
+
+		3-1-1. ID
+		The ID is a random string of alphanumeric characters with a given lenght, and is the unique identifier for the item.
+		There should not be any 2 identical IDs.
+		An ID looks like this - "IkwP2Saz".
+
+	3-2. LINK HEAP
+	The LINK HEAP is enclosed in square brackets.
+	A LINK HEAP consists of one or more LINKS, separated by a comma ",".
+	For example - "[www.some-url.com/article.htm | Some Url - Article, www.x.com/tod.htm | X Today]"
+
+		3-2-1. LINK
+		A LINK might be as simple as a valid URL - "www.some-url.com/article.htm"
+		Or it might contain a title, in which case the title is separated by the URL by space and a pipe.
+		Very much like the links in MediaWiki markup. For example - "www.some-url.com/article.htm | Some Url - Article",
+		where "Some Url - Article" is the title.
+
+	3-3. LITERAL
+	Anything in a TERMIN that is not enclosed in angle or square brackets is a literal.
+	It consists of various symbols, but cannot contain: 
+	Some brackets - "<", ">", "[", "]";
+	Or control characters - "->", ";", ",";
+	All of those can be escaped though.
+	
+		3-3-1. ESCAPE SEQUENCE
+		An ESCAPE SEQUENCE consists of a backslash and a command character.
+		Escape sequences are: "\<", "\>", "\[", "\]", "\->", "\;", and "\,";
+
+
+4. STATEMENTS
+STATEMENTS, also called PRODUCTIONS represent a list in Describe.
+A STATEMENT is a TERMIN, a production sign "->", one or more TERMINS delimited by a comma ",", semicolon ";".
+For example, a valid STATEMENT is this (minus the quotation symbols) :
+
+	"
+	books <U8Tb5AoS> ->
+
+		fantasy <y6Qj3HDE>,
+		programming <udMnuUyE>,
+		sociology <jeylSCAn>,
+		cooking <tkJTvl1W>;
+	"
+
+An empty PRODUCTION is also syntactically valid, but is ignored (minus the quotation symbols):
+
+	"
+	books <U8Tb5AoS> ->;
+	"
+
+Nested STATEMENTS are not allowed in this first version of the language.
